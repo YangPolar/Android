@@ -25,8 +25,8 @@ class MyApp extends StatelessWidget {
           appBarTheme: const AppBarTheme(
               elevation: 0, iconTheme: IconThemeData(color: Colors.black))),
       onGenerateRoute: (settings) => generateRoute(settings),
-      //home: const AuthScreen(),
-      home: Scaffold(
+      home: const AuthScreen(),
+      /*home: Scaffold(
           appBar: AppBar(title: const Text('Hello')),
           body: Column(
             children: [
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
               ),
             ],
           )
-      ),
+      ),*/
     );
   }
 }
